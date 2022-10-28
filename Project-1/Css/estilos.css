@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Le comienzo a dar estilos a mi css esta es la parte de la licuadora*/
+.blender{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 500px;
+    /*backgroundolor: crimson;*/
+    background-image: url(/img/licuadoraApagada.png);
+    background-size:contain ;
+    background-position: center;
+    background-repeat:no-repeat ;
+}
+.blender.active{
+    background-image: url(/img/licuadoraEncendida.gif);
+}
+/*Le doy estilos a mi clase boton*/
+
+.blender-button{
+    margin: 350px auto 0;
+    width: 70px;
+    height: 70px;
+}
